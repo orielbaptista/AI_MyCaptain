@@ -1,0 +1,14 @@
+no = 13
+
+# first two terms
+n1, n2 = 0, 1
+count = 0
+
+if no >= 0:
+   while count < no:
+       print(n1)
+       nth = n1 + n2
+       # update values
+       n1 = n2
+       n2 = nth
+       coun
